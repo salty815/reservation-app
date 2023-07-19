@@ -9,7 +9,7 @@ import { ProductService } from '../shared/product.service';
 })
 export class ProductDetailComponent implements OnInit {
   product: any
-  // const x
+
   constructor(
     private route: ActivatedRoute,
     private productService: ProductService
